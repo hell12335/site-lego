@@ -1,0 +1,38 @@
+.perfil {
+  position: absolute;
+  margin-top: 9rem;
+  margin-left: 42%;
+  border-style: outset;
+  border-color: rgb(158, 156, 156);
+  box-sizing: border-box;
+  width: 16rem;
+}
+
+.nome{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.sobrenome{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.endereco{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.bairro{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.email{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.bnt-voltar{
+  margin-left: 5rem;
+}
