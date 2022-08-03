@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-    <!-- <title>Teste</title> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 </head>
 
@@ -14,8 +13,7 @@
         </div>
 
         <div class="Caixas-login">
-            <div class="caixa-login-email">
-                <!-- <input type="email" name="email-login" placeholder="Email"> -->
+            <div class="caixa-login-email">               
                 <mat-form-field appearance="fill">
                     <mat-label>Email</mat-label>
                     <input matInput placeholder="exemplo@gmail.com">
@@ -25,7 +23,6 @@
             </div>
 
             <div class="caixa-login-senha">
-                <!-- <input type="password" name="senha" placeholder="Senha"> -->
                 <mat-form-field appearance="fill">
                     <mat-label>Senha</mat-label>
                     <input matInput placeholder="Senha">
@@ -35,11 +32,11 @@
             </div>
 
             <div class="btn-entrar">
-              <a routerLink="produtos"><button mat-raised-button>Entrar</button></a>
+              <a routerLink="/produtos"><button mat-raised-button>Entrar</button></a>
             </div>
 
             <div class="novo-cadastro">
-                <p>Ainda não membro ? <a routerLink="formulario"><button mat-raised-button>Cadastre-se</button></a></p>
+                <p>Ainda não membro ? <a routerLink="/formulario"><button mat-raised-button>Cadastre-se</button></a></p>
             </div>
         </div>
     </div>

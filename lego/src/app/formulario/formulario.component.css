@@ -1,5 +1,57 @@
 .cadastro {
-    position: relative;
-    margin-top: 13%;
-    margin-left: 40%;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 42%;
+}
+
+.body {
+    background-color: rgb(141, 141, 141);
+}
+
+.bnt-confi {
+    margin-left: 18%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cadastro {
+    border-style: outset;
+    border-color: rgb(158, 156, 156);
+    box-sizing: border-box;
+    width: 16rem;
+}
+
+.nome {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.sobrenome {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.email {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.senha {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.conf-senha {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.bairro {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.endereco {
+    margin-top: 1rem;
+    margin-left: 1rem;
 }

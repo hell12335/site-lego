@@ -6,7 +6,11 @@
     <body> 
         <div class="cadastro">
             <div class="nome">
-                <label>Nome: </label>
+
+                <div class="label-nome">
+                    <label>Nome: </label>
+                </div>
+            
                 <mat-form-field appearance="fill">
                     <mat-label>Nome</mat-label>
                     <input matInput placeholder="Exemplo">
@@ -16,7 +20,11 @@
             </div>
 
             <div class="sobrenome">
-                <label>Sobrenome: </label>
+
+                <div class="label-sobrenome">
+                    <label>Sobrenome: </label>
+                </div>
+
                 <mat-form-field appearance="fill">
                     <mat-label>Sobrenome</mat-label>
                     <input matInput placeholder="Exemplo">
@@ -25,8 +33,40 @@
                 </mat-form-field>
             </div>
 
+            <div class="endereco">
+
+                <div class="label-endereco">
+                    <label>Endereço: </label>
+                </div>
+
+                <mat-form-field appearance="fill">
+                    <mat-label>Endereço</mat-label>
+                    <input matInput placeholder="Exemplo">
+                    <mat-icon matSuffix></mat-icon>
+                    <mat-hint></mat-hint>
+                </mat-form-field>
+            </div>
+
+            <div class="bairro">
+
+                <div class="label-bairro">
+                    <label>Bairro: </label>
+                </div>
+
+                <mat-form-field appearance="fill">
+                    <mat-label>Bairro</mat-label>
+                    <input matInput placeholder="Exemplo">
+                    <mat-icon matSuffix></mat-icon>
+                    <mat-hint></mat-hint>
+                </mat-form-field>
+            </div>
+
             <div class="email">
-                <label>E-mail: </label>
+
+                <div class="label-email">
+                    <label>E-mail: </label>
+                </div>
+
                 <mat-form-field appearance="fill">
                     <mat-label>Email</mat-label>
                     <input matInput placeholder="exemplo@gmail.com">
@@ -36,7 +76,11 @@
             </div>
 
             <div class="senha">
-                <label>Senha: </label>
+
+                <div class="label-senha">
+                    <label>Senha: </label>
+                </div>
+
                 <mat-form-field appearance="fill">
                     <mat-label>Senha</mat-label>
                     <input matInput placeholder="Senha">
@@ -46,7 +90,11 @@
             </div>
 
             <div class="conf-senha">
-                <label>Confirme sua senha: </label>
+
+                 <div class="label-confi-senha">
+                    <label>Confirme sua senha: </label>
+                 </div>
+
                 <mat-form-field appearance="fill">
                     <mat-label>Confirme sua senha</mat-label>
                     <input matInput placeholder="Confirme sua senha">
@@ -54,6 +102,13 @@
                     <mat-hint></mat-hint>
                 </mat-form-field>
             </div>
-        </div>   
+
+            <div class="bnts">
+                <div class="bnt-confi">
+                    <a routerLink=""><button mat-raised-button>Voltar</button></a> 
+                    <a routerLink="/produtos"><button mat-raised-button>Confirmar</button></a>                      
+                </div>
+            </div>
+        </div>  
     </body>    
 </html>
