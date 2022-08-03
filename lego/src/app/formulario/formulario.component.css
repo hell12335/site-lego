@@ -2,6 +2,10 @@
     position: absolute;
     margin-top: 0.5%;
     margin-left: 42%;
+    border-style: outset;
+    border-color: rgb(158, 156, 156);
+    box-sizing: border-box;
+    width: 16rem;
 }
 
 .body {
@@ -12,13 +16,6 @@
     margin-left: 18%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.cadastro {
-    border-style: outset;
-    border-color: rgb(158, 156, 156);
-    box-sizing: border-box;
-    width: 16rem;
 }
 
 .nome {
