@@ -1,0 +1,35 @@
+.login{
+    position: absolute;
+    border: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+}
+
+.img-fundo img{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+}
+
+.Caixas-login {
+    position: relative;
+    margin-top: -30%;
+    margin-left: 44%;
+}
+
+.btn-entrar {
+    margin-top: 1rem;
+    margin-left: 3.9rem;
+}
+
+.novo-cadastro {
+    color: rgb(238, 16, 16);
+}
+
+.caixa-login-senha {
+    margin-top: 1rem;
+}
+
+.novo-cadastro {
+    margin-top: 3rem;
+    margin-left: -1rem;
+}
