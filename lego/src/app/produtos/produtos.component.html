@@ -1,1 +1,23 @@
-<p>produtos works!</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <button mat-raised-button [matMenuTriggerFor]="menu">Menu</button>
+            <mat-menu #menu="matMenu">
+               <a routerLink="/perfil"> <button mat-menu-item>Seu perfil</button></a>
+                <a routerLink="/pedidos"> <button mat-menu-item>Seus pedidos</button></a>
+                <a routerLink="/carrinho"><button mat-menu-item>Carrinho</button></a>
+                <a routerLink=""> <button mat-menu-item>Sair</button></a>
+            </mat-menu>
+        </div>
+    </header>
+</body>
+</html>
